@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="585" started-at="2017-12-19T20:01:28Z" finished-at="2017-12-19T20:01:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="585" started-at="2017-12-19T20:01:28Z" finished-at="2017-12-19T20:01:28Z">
+      <class name="test.TestWorker">
+        <test-method status="PASS" signature="getAgeTest(int, int)[pri:0, instance:test.TestWorker@23ceabc1]" name="getAgeTest" duration-ms="78" started-at="2017-12-19T22:01:28Z" data-provider="getAge" finished-at="2017-12-19T22:01:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAgeTest -->
+        <test-method status="PASS" signature="getAgeTest(int, int)[pri:0, instance:test.TestWorker@23ceabc1]" name="getAgeTest" duration-ms="10" started-at="2017-12-19T22:01:28Z" data-provider="getAge" finished-at="2017-12-19T22:01:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAgeTest -->
+        <test-method status="PASS" signature="isCanWorkTest(boolean, boolean)[pri:0, instance:test.TestWorker@23ceabc1]" name="isCanWorkTest" duration-ms="3" started-at="2017-12-19T22:01:28Z" data-provider="isCanWork" finished-at="2017-12-19T22:01:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCanWorkTest -->
+        <test-method status="PASS" signature="isCanWorkTest(boolean, boolean)[pri:0, instance:test.TestWorker@23ceabc1]" name="isCanWorkTest" duration-ms="7" started-at="2017-12-19T22:01:28Z" data-provider="isCanWork" finished-at="2017-12-19T22:01:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCanWorkTest -->
+      </class> <!-- test.TestWorker -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
